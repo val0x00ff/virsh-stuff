@@ -9,7 +9,7 @@ ISODIR="/var/lib/libvirt/images"
 INST_PATH="/var/lib/libvirt/images/vms"
 
 
-
+# DONT CHANGE BELOW 
 if [[ ${EUID} != 0 ]]; then
   printf "${USER}. You must be root\n"
   exit 1  
